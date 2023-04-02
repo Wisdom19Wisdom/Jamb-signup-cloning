@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css">
+    <title>JAMB LOGIN</title>
+    <style>
+        body{
+            background-image: url('assets/image/jambbg.jpg');
+            background-position: 0% 50%;
+            background-attachment: fixed;
+        }
+        .img1{
+            justify-content: center;
+        }
+        .di1{
+            display: flex;
+            justify-content: center;
+            padding: 7px;
+        }
+        form{
+            width: 400px;
+            box-shadow: 0px 0px 5px #b7b7b7;
+        }
+        .hh1{
+            font-size: 25px;
+            font-weight: 500;
+            color: rgb(62, 62, 62);
+            margin-top: 40px;
+        }
+        .but1{
+            float: right;
+            border: rgb(4, 156, 207);
+            border-radius: 0;
+            background-color: rgb(4, 156, 207);
+        }
+        .in2{
+            border-radius: 0;
+            height: 35px;
+        }
+        .mm3{
+            margin-top: 60px;
+            border-top: 1px solid rgb(222, 220, 220);
+            padding-top: 15px;
+        }
+        .sm1{
+            font-size: 14px;
+        }
+        .but2{
+            border-radius: 0;
+            border: rgb(4, 156, 207);
+            background-color: rgb(4, 156, 207);
+        }
+        .hh2{
+            padding-top: 25px;
+            font-weight: 500;
+            color: rgb(62, 57, 57);
+        }
+        .but3{
+            border-radius: 0;
+            border: rgb(4, 156, 207);
+            background-color: rgb(4, 207, 183);
+        }
+        .pp1{
+            font-size: 15px;
+            padding-bottom: 10px;
+        }
+        .aa2{
+            text-decoration: none;
+            color: white;
+            padding-bottom: 5px;
+            font-weight: 500;
+        }
+        .pp3{
+            font-size: 14px;
+            color: rgb(2, 76, 2);
+        }
+        .fo1{
+            color: rgb(172, 169, 169);
+        }
+        .fo2{
+            border-radius: 0;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div>
+            <div class="di1">
+                <img src="assets/image/logo_jamb.png" width="250" alt="">
+            </div>
+            <div class="di1">
+                <form action="#" method="post">
+                    <div class="container">
+                        <h3 class="hh1">Login to your account</h3>
+                        <!-- <div class="form-group mb-3">
+                        <input type="text"class="form-control in2" id="Email" placeholder="e-Mail Address">
+                        </div> -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-text fo2"><i class="fa fa-envelope fo1"></i></div>
+                             <input type="text" class="form-control in2" id="inlineFormInputGroupEmail" placeholder="e-mail Address">
+                        </div>
+                        <!-- <div class="form-group mb-3">
+                        <input type="password" class="form-control in2" id="Password" placeholder="Password">
+                        </div> -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-text fo2"><i class="fa fa-lock fo1"></i></div>
+                            <input type="password" class="form-control in2" id="inlineFormInputGrouppassword" placeholder="Password">
+                        </div>
+                        <button class="btn btn-primary but1 mb-1">Login</button>
+                    </div>
+                    <div class="container mm3">
+                        <div class="row">
+                            <div class="col-md-6 sm1">Don't have an account yet?</div>
+                            <div class="col-md-6"><button class="btn btn-primary but2">Create an account</button></div>
+                            <h6 class="hh2">Forgot your password?</h6>
+                            <p class="pp1">Click <button class="btn btn-primary but3"><a href="jambSignup.html" class="aa2">here</a></button> to reset your password</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="di1"><p class="pp3">2023 © Joint Admissions and Matriculation Board (JAMB)</p></div>
+        </div>
+    </div>
+</body>
+</html>
